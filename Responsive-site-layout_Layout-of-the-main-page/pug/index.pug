@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+html(lang="ru")
+head
+   meta(charset="UTF-8") 
+   meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+   title Учимся работать с шаблонизатором Pug 
+   link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.csss") 
+   link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css")
+   link(rel="stylesheet", href="style.css") 
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js") 
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js")
+body
+   header
+      nav.container
+         a.logo
+            span L
+            span O
+            span G
+            span O
+         .nav-togle
+            span 
+         form(action="", method="get" id="searchform")
+            input(type="text" name="" id="" placeholder="Искать на сайте...") 
+            button(type="submit")
+               i.fa.fa-search
+         ul#menu
+            li
+               a(href="#") Link 1 Блог
+            li
+               a(href="#") Link 2 Портфолио
+            li
+               a(href="#") Link 3 Об Авторе
+   .container
+      .post-list
+            article.post#post1
+               .post-image
+               .category
+               .post-title
+               p
+               .post-footer
+            article.post#post2
+               .post-image
+               .category
+               .post-title
+               p
+               .post-footer
+            article.post#post3 
+               .post-image
+               .category
+               .post-title
+               p
+               .post-footer
+   footer
+      .container
+         .footer-col
+         .footer-col
+         .footer-col
+   script
