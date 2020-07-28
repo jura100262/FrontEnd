@@ -9,10 +9,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Верстка главной страницы</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
     <link rel="stylesheet" href="main.css.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="container-fluid">
+      <nav class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <a href="#" class="logo">
+              <span>L</span>
+              <span>O</span>
+              <span>G</span>
+              <span>O</span>
+            </a>
+          </div>
+          <div class="col-md-1">
+            <nav class="toggle">
+              <span></span>
+            </nav>
+          </div>
+          <div class="col-md-6">
+            <ul id="menu">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <form action="" method="get" id="searchform">
+              <input type="text" placeholder="Искать на сайте ...">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
