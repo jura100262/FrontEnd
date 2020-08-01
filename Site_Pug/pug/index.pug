@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 html(lang="ru")
 head
@@ -98,7 +95,10 @@ body
             ul.widget-post-list
          .widget
             .widget-title 
-            form(#subscribe action="", method="post")
+            form#subscribe(action="" method="post")
+               input(type="email", name="")
+               button(type="submit" id="" placeholder="Ваш e-mail" required)
+                  i.fa.fa-paper-plane-o
    footer
       .container
          .footer-col
