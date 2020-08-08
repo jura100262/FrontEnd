@@ -88,13 +88,28 @@ body
                      i.fa.fa-pinterest
       aside
          .widget
-            .widget-title 
+            .widget-title Категории
             ul.widget-category-list
+               li (2)
+                  a(href="#") Дизайн
+               li (5)
+                  a(href="#") Верстка
+               li (1)
+                  a(href="#") Видео
          .widget
-            .widget-title 
+            .widget-title Последние записи
             ul.widget-post-list
+               li
+                  .post-image-small
+                     img(src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_slovar_rodnoy_prirodi.jpg", alt="")
+               li
+                  .post-image-small
+                     img(src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_Russia.jpg", alt="")
+               li
+                  .post-image-small
+                     img(src="https://html5book.ru/wp-content/uploads/2016/05/rasskaz_rodnaya_priroda_osen.jpg", alt="")
          .widget
-            .widget-title 
+            .widget-title Подписка на рассылку 
             form#subscribe(action="" method="post")
                input(type="email", name="")
                button(type="submit" id="" placeholder="Ваш e-mail" required)
