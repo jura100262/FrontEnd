@@ -1,5 +1,37 @@
-body{
-	font-family: 'Inconsolata', monospace;
-font-family: 'Playfair Display', serif;
-font-family: 'Ubuntu', sans-serif;
+body {
+  min-width: 320px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #626262;
+}
+
+img {
+  min-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #b4ad9e;
+}
+
+a a:hover {
+  color: #898377;
+}
+
+.container {
+  min-width: 1200px;
+  padding: 70px;
+  margin: auto;
+}
+
+.nav-item .nav-link {
+  text-transform: uppercase;
+  margin-left: 120px;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-family: "Inconsolata Regular", serif;
 }
