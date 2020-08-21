@@ -1,4 +1,4 @@
-@import "media-queries.scss";
+@import "media-queries";
 $bd-font-color: #626262;
 body {
     min-width: 320px;
@@ -18,23 +18,40 @@ a {
         color: $a-hover-color;
     }
 }
-.container {
-    min-width: 1200px;
-    padding: 70px;
-    margin: auto;
+
+header{
+   .navbar-ligth{
+      background-color: #fff;
+   }
+   .navbar-brand {
+      color: #000;
+      text-transform: uppercase;
+      font-size: 30px;
+      letter-spacing: 10px;
+      font-family: "Inconsolata Regular", monospace;
+  }
+  .nav-item {
+	text-transform: uppercase;
+	margin-left: 50px;
+	a::after{
+		content: '';
+		display: block;
+		width: 100%;
+		background-color: #ccc;
+		height: 1px;
+		transform: scale(0);
+		transition: all .7s;
+	}
+	a:hover::after{
+		transform: scale(1);
+	}
 }
-.nav-item {
-    .nav-link {
-        text-transform: uppercase;
-        margin-left: 120px;
-    }
 }
-.navbar-brand {
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 10px;
-    font-family: "Inconsolata Regular", serif;
-}
+
+
+
+
+
 
 // @include min-screen(1140) {
 // }

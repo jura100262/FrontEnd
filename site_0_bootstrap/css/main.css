@@ -18,20 +18,33 @@ a a:hover {
   color: #898377;
 }
 
-.container {
-  min-width: 1200px;
-  padding: 70px;
-  margin: auto;
+header .navbar-ligth {
+  background-color: #fff;
 }
 
-.nav-item .nav-link {
-  text-transform: uppercase;
-  margin-left: 120px;
-}
-
-.navbar-brand {
+header .navbar-brand {
+  color: #000;
   text-transform: uppercase;
   font-size: 30px;
   letter-spacing: 10px;
-  font-family: "Inconsolata Regular", serif;
+  font-family: "Inconsolata Regular", monospace;
+}
+
+header .nav-item {
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+header .nav-item a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: #ccc;
+  height: 1px;
+  transform: scale(0);
+  transition: all .7s;
+}
+
+header .nav-item a:hover::after {
+  transform: scale(1);
 }
