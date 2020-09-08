@@ -1,21 +1,22 @@
 {
-  "name": "js_0",
+  "name": "BeOnMax",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
+  "main": "scripts_1.js",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-html": "^6.0.3",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1"
-  }
+  "license": "ISC"
 }
